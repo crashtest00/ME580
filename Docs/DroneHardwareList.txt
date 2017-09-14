@@ -1,0 +1,13 @@
+-Chassis
+-Motors (4)
+-ESCS(4)
+Props (4) NEED SPEC
+-Pixhawk
+Battery EC3 (2) NEED SPEC
+-GPS
+Telemetry Radio NEED SPEC
+-RC Radio (Remote receiver)
+Camera (Chroma junk?)
+TX2 Carrier Board NEED SPEC
+TX2
+Battery Straps NEED SPEC
