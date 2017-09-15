@@ -2,7 +2,7 @@
 
 <h2>Task</h2>
 <i><h3>Primary</h3></i>
-  The primary task of this system is to train the deep neural network to fly the drone to a specific point, execute an action (e.g. take a picture) and return home. This task should be accomplished using only sensor feedback from the Pixhawk (GPS, compass, altitude, and attitude).
+  The primary task of this system is to train the deep neural network to fly the drone to a specific point, execute an action (e.g. take a picture) and return home. This task should be accomplished using sensor feedback from the Pixhawk (GPS, compass, altitude, and attitude).
   
   This neural network will receive initial training using the Pixhawk flight controller and either Gazebo or jMAVsim flight simulators. This simulators provide artificial inputs to the Pixhawk sensors, so the neural network will not be able to distinguish between a simulator mission and an actual mission. As an additional safe guard, the pilot will be able to take manual control in case of a neural network failure.
 The pilot/student is Part 107 certified.
