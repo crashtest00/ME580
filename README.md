@@ -1,7 +1,6 @@
 # ME580
 
-This repo contains source code and documentation for my ME580 student project. This text file was created
-with emacs.
+This repo contains source code and documentation for my ME580 student project. 
 
 Course Details:
 University of North Dakota
