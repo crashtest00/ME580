@@ -3,21 +3,20 @@ clear all
 close all
 clc
 
-dMax = 200; %distance threshold
-t = 6; %subset size (Minimum number of pts required for line)
+dMax = 50; %distance threshold
+t = 2; %subset size (Minimum number of pts required for line)
 raw = load('data_file4.csv'); %data file
 hasDups = xy_convert(raw);
-A = unique(hasDups(:,1:2),'rows','stable'); %Remove errors (duplicates)
-Original = A;
+A = unique(hasDups(:,1:2),'rows','stable');
 size(A)
 goodPts = []; %empty array for good line vertices
 solutions = []; %All solutions
-p = .90;
-w = .60;
-k = log(1-p)/(log(1-w^2));
+p = .99;
+w = .50;
+k = log(1-p)/(log(1-w^2))*2;
 
 %Iterate until A is pretty much empty. What's left should be outliers/noise
-while size(A,1) > (1-p)*A
+while size(A,1) > t
     %Perform random sample consensus
     set = [];
     setMax = [];
@@ -53,23 +52,17 @@ while size(A,1) > (1-p)*A
             A(index(size(setMax,1)-i),:)=[];
         end
         %plot results
-        %hold off
-        %figure;
-        %for i=1:size(solutions,1)
-            %plot([solutions(i,1) solutions(i,3)],[solutions(i,2) solutions(i,4)])
-            %hold on
-            %axis([-500 1500 -3000 1500])
-            %scatter(A(:,1),A(:,2))
-        %end
+        hold on
+         for i=1:size(solutions,1)
+             plot(solutions(i,:));
+         end
         size(A,1);
     end
-    end
-
-hold on
-for i=1:size(solutions,1)
-    plot([solutions(i,1) solutions(i,3)],[solutions(i,2) solutions(i,4)])
-    axis([-500 1500 -3000 1500])
 end
+        
+
+
 %plot original points
-figure;scatter(Original(:,1),Original(:,2))
-hold off
+A = xy_convert(raw);
+figure;scatter(A(:,1),A(:,2))
+%figure;plot(A(:,1),A(:,2),'*-r')
