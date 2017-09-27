@@ -1,4 +1,4 @@
-9/25-9/29
+<h3>9/25-9/29</h3>
 - [ ] Get the Pixhawk working on a simulator
 - [ ] Verify telemetry connection via QGroundControl
 - [ ] Verify Spektrum connectivity w/ Pixhawk using simulator
@@ -12,7 +12,7 @@
 - [ ] Boot TX2 and verify access
 - [ ] Identify and purchase TX2 carrier board
 - [ ] Develop reqs for battery
-- [ ] Complete workplan through end of October including HW due dates
+- [ ] Complete project plan through end of October including HW due dates
 
-Unallocated Tasks
+<h3>Unallocated Tasks</h3>
 - [ ] Complete data/control flowchart (use google docs and upload to this repo)
