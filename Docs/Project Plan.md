@@ -14,5 +14,5 @@
 - [ ] Develop reqs for battery
 - [ ] Complete workplan through end of October including HW due dates
 
-Unallocated Taskts
+Unallocated Tasks
 - [ ] Complete data/control flowchart (use google docs and upload to this repo)
