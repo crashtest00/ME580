@@ -1,3 +1,4 @@
+[Markdown cheatsheet](https://github.com/mundimark/awesome-markdown)
 ### 9/25-9/29
 - [ ] Get the Pixhawk working on a simulator
 - [ ] Verify telemetry connection via QGroundControl
@@ -16,3 +17,7 @@
 
 ### Unallocated Tasks
 - [ ] Complete data/control flowchart (use google docs and upload to this repo)
+
+```math
+a^2+b^2=c^2
+```
