@@ -17,7 +17,3 @@
 
 ### Unallocated Tasks
 - [ ] Complete data/control flowchart (use google docs and upload to this repo)
-
-```math
-a^2+b^2=c^2
-```
