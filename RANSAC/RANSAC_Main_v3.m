@@ -3,17 +3,16 @@ clear all
 close all
 clc
 
-dMax = 40; %distance threshold
+dMax = 10; %distance threshold
 t = 6; %subset size (Minimum number of pts required for line)
 raw = load('data_file4.csv'); %data file
 hasDups = xy_convert(raw);
 A = unique(hasDups(:,1:2),'rows','stable'); %Remove duplicates
-A = A(25:300,:)
 Original = A;
 goodPts = []; %empty array for good line vertices
 solutions = []; %All solutions
-p = .90;
-w = .60;
+p = .99;
+w = .50;
 k = log(1-p)/(log(1-w^2));
 limit = 0; %Counter to prevent an endless loop
 
@@ -26,36 +25,53 @@ while (size(A,1) > 30) && (limit <= 300)
         %Randomly select 2 different numbers between 1 and A.size
         SampleIndex = randperm(size(A,1),2);
         
-        %Use SampleIndex results to get two random points
+        %Use SampleIndex results to get two randomw points
         x = [A(SampleIndex(1),1); A(SampleIndex(2),1)];
         y = [A(SampleIndex(1),2); A(SampleIndex(2),2)];
+        ranPts = [x y ones(size(x))];
+
+        %Fit a line to the random points
+        line = getLine_v2(ranPts);
+        plot(line)
         
         %Get all points that are less than dMax from line & their index
-        [set, setI] = getSetFromPoints(A,x,y,dMax);
-        
+        [idx_In] = getInliers(line, A, dMax)
+        scatter(A(idx_In,1), A(idx_In,2))
+        axis([-500 1500 -3000 1500])
+
         %Add set to list if set size is big enough & set size is > setMax
-        if size(set,1) >= t && size(set,1) > size(setMax,1);
-            setMax = set;
-            index = setI;
+        if size(idx_In,1) >= t && size(idx_In,1) > size(setMax,1);
+            %refit line to points in setMax
+            setMax = [A(idx_In,:) ones(size(idx_In))];
+            goodLine = setMax;
+            index = idx_In;
         end
     end
     
-    %Add largest set to solutions
-    if size(setMax,1) >= t
-        solutions = vertcat(solutions,getGoodPts(setMax));
-        
-        %Delete points that are in this solution from the main set
-        for i = 2:(size(setMax,1)-1)
-            A(index(size(setMax,1)-i),:)=[];
-        end
-    else
+    %Add setMax to solution
+    solutions = vertcat(solutions,getGoodPts(setMax))
+    for i=1:size(solutions,1)
+        hold on
+        %plot(solutions(:,1), solutions(:,2))
+        axis([-500 1500 -3000 1500])
+    end
+    %figure;scatter(A(:,1),A(:,2))      
+    
+    %Delete points that are in setMax from the main set
+    for i = 0:(size(setMax,1)-1)
+        A(index(size(setMax,1)-i),:)=[];
+    end
+    
+    %if no solutions are found, increment the limit counter
+    if size(setMax) == 0 
         limit = limit + 1;
     end
 end
 
 hold on
 for i=1:size(solutions,1)
-    plot([solutions(i,1) solutions(i,3)],[solutions(i,2) solutions(i,4)])
+    %consolidate(solutions)
+    plot(solutions(:,1), solutions(:,2))
     axis([-500 1500 -3000 1500])
 end
 %plot original points

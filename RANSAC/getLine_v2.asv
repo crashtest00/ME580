@@ -1,0 +1,6 @@
+function line_eq = getLine(A) 
+%Points of interest must be in A
+[U, S, V] = svd(A);
+line_eq = V(:,3);
+%normalize the line equation
+line_eq = line_eq/sqrt(sum(line_eq(1:2).^2));
