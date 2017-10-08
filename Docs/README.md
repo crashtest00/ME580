@@ -3,7 +3,7 @@
 [Markdown cheatsheet](https://github.com/mundimark/awesome-markdown)
 ### 9/25-9/29
 - [X] Get the Pixhawk working on a simulator
-- [ ] Verify telemetry connection via QGroundControl
+- [X] Verify telemetry connection via QGroundControl
 - [X] Verify Spektrum connectivity w/ Pixhawk using simulator
 - [X] Split drone chassis and complete structural inspection: 
     - [X] Remove a motor for kv testing (Put kv in BOM doc)
