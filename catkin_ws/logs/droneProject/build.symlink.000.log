@@ -1,0 +1,4 @@
+Symlinking /home/jack/ME580/catkin_ws/devel/share/droneProject/cmake/droneProjectConfig-version.cmake
+Symlinking /home/jack/ME580/catkin_ws/devel/share/droneProject/cmake/droneProjectConfig.cmake
+Symlinking /home/jack/ME580/catkin_ws/devel/lib/pkgconfig/droneProject.pc
+Symlinking /home/jack/ME580/catkin_ws/devel/lib/droneProject/offb_node

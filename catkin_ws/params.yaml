@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_bigbrain__38417: 'http://BigBrain:38417/'}
+rosversion: '1.12.7
+
+  '
+run_id: d045a662-b5a6-11e7-b9ac-305a3a0160cb

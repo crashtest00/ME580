@@ -1,0 +1,8 @@
+prefix=/home/jack/ME580/catkin_ws/install
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 0.21.2
+Cflags: -I/home/jack/ME580/catkin_ws/install/include
+Libs: -L/home/jack/ME580/catkin_ws/install/lib 
+Requires: geometry_msgs sensor_msgs geographic_msgs message_runtime std_msgs
