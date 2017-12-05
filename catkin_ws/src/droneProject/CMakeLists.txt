@@ -120,6 +120,8 @@ catkin_package(
 include_directories(
   include ${catkin_INCLUDE_DIRS}
   include ${catkin_INCLUDE_DIRS}
+  include ${catkin_INCLUDE_DIRS}
+  include ${catkin_INCLUDE_DIRS}
 # include
   ${catkin_INCLUDE_DIRS}
 )
@@ -208,5 +210,13 @@ add_executable(offb_node
 )
 add_dependencies(offb_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(offb_node
+  ${catkin_LIBRARIES}
+)
+
+add_executable(project_update
+  src/project_update.cpp
+)
+add_dependencies(project_update ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(project_update
   ${catkin_LIBRARIES}
 )

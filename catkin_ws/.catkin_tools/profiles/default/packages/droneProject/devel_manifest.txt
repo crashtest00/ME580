@@ -1,5 +1,0 @@
-droneProject
-/home/jack/ME580/catkin_ws/devel/.private/droneProject/share/droneProject/cmake/droneProjectConfig-version.cmake /home/jack/ME580/catkin_ws/devel/share/droneProject/cmake/droneProjectConfig-version.cmake
-/home/jack/ME580/catkin_ws/devel/.private/droneProject/share/droneProject/cmake/droneProjectConfig.cmake /home/jack/ME580/catkin_ws/devel/share/droneProject/cmake/droneProjectConfig.cmake
-/home/jack/ME580/catkin_ws/devel/.private/droneProject/lib/pkgconfig/droneProject.pc /home/jack/ME580/catkin_ws/devel/lib/pkgconfig/droneProject.pc
-/home/jack/ME580/catkin_ws/devel/.private/droneProject/lib/droneProject/offb_node /home/jack/ME580/catkin_ws/devel/lib/droneProject/offb_node

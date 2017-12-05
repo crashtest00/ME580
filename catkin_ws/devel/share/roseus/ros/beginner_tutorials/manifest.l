@@ -1,1 +1,0 @@
-/home/jack/ME580/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l
