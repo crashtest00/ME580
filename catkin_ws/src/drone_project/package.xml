@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>droneProject</name>
+  <name>drone_project</name>
   <version>0.0.0</version>
-  <description>The droneProject package</description>
+  <description>The drone_project package</description>
 
   <maintainer email="jjmarck@gmail.com">jack</maintainer>
 
   <license>BSD</license>
-  <url type="website">http://wiki.ros.org/droneProject</url>
+  <url type="website">http://wiki.ros.org/drone_project</url>
 
 
   <author email="jjmarck@gmail.com">Jack Marck</author>
