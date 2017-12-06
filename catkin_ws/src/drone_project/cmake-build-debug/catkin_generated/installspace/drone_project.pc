@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: drone_project
+Description: Description of drone_project
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

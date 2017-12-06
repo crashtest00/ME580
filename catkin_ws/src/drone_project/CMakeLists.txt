@@ -220,3 +220,11 @@ add_dependencies(project_update ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXP
 target_link_libraries(project_update
   ${catkin_LIBRARIES}
 )
+
+add_executable(get_state
+        src/get_state.cpp
+        )
+add_dependencies(get_state ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(get_state
+        ${catkin_LIBRARIES}
+        )
