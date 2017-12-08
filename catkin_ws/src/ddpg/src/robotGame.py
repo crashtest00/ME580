@@ -73,7 +73,7 @@ class robotGame():
  
     def step(self,vals):
         done = False
-        prevDist = self.getDist()
+        prevDist = self.getDist() #This doesn't appear to be used               
         tjv = [x + y for x,y in zip(vals.flatten().tolist(),self.getCurrentJointValues())]
         status = self.setJointValues(tjv)
         curDist = self.getDist()
@@ -97,7 +97,3 @@ if __name__ == "__main__":
             r.reset()
             print r.getCurrentJointValues()
             print r.getCurrentPose()
-
-
-
-

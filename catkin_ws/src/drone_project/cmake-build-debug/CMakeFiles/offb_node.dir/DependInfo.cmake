@@ -16,6 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "devel/include"
   "../include"
   "/home/jack/ME580/catkin_ws/devel/.private/mavros_msgs/include"
   "/home/jack/ME580/catkin_ws/src/mavros/mavros_msgs/include"

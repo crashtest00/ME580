@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(drone_project_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/include " STREQUAL " ")
   set(drone_project_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(drone_project_EXPORTED_TARGETS "")
+set(drone_project_EXPORTED_TARGETS "drone_project_generate_messages_cpp;drone_project_generate_messages_eus;drone_project_generate_messages_lisp;drone_project_generate_messages_nodejs;drone_project_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${drone_project_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -153,7 +153,7 @@ foreach(t ${drone_project_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "message_runtime")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND drone_project_EXPORTED_TARGETS ${${drone_project_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "drone_project-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${drone_project_DIR}/${extra})

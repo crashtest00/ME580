@@ -3,6 +3,6 @@ prefix=/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel
 Name: drone_project
 Description: Description of drone_project
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/include
 Libs: -L/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/lib 
-Requires: 
+Requires: message_runtime

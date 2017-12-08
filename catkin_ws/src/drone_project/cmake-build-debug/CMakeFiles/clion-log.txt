@@ -12,6 +12,16 @@
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.6
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- drone_project: 1 messages, 0 services
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:416 (message):
+  catkin_package() include dir
+  '/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/include'
+  should be placed in the devel space instead of the build space
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:106 (catkin_package)
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug

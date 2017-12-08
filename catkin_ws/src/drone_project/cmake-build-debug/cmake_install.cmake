@@ -115,7 +115,43 @@ file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jack/ME580/catkin_w
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_project/msg" TYPE FILE FILES "/home/jack/ME580/catkin_ws/src/drone_project/msg/drone_state.msg")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_project/cmake" TYPE FILE FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/catkin_generated/installspace/drone_project-msg-paths.cmake")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/include/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/share/roseus/ros/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/share/common-lisp/ros/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/share/gennodejs/ros/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/lib/python2.7/dist-packages/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/devel/lib/python2.7/dist-packages/drone_project")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/catkin_generated/installspace/drone_project.pc")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone_project/cmake" TYPE FILE FILES "/home/jack/ME580/catkin_ws/src/drone_project/cmake-build-debug/catkin_generated/installspace/drone_project-msg-extras.cmake")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

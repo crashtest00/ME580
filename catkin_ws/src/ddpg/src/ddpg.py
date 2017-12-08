@@ -47,7 +47,7 @@ def playGame(train_indicator=0):    #1 means Train, 0 means simply Run
     critic = CriticNetwork(sess, state_dim, action_dim, BATCH_SIZE, TAU, LRC)
     buff = ReplayBuffer(BUFFER_SIZE)    #Create replay buffer
 
-    # Generate a Torcs environment
+    # Generate the environment
     env = robotGame()
 
     #Now load the weight
@@ -76,14 +76,14 @@ def playGame(train_indicator=0):    #1 means Train, 0 means simply Run
             loss = 0 
             epsilon -= 0.3 / EXPLORE
             a_t = np.zeros([1,action_dim])
-            noise_t = np.zeros([1,action_dim])
+            noise_t = np.zeros([1,action_dim]) #Doesn't appear to be used! Becuase it's Deterministic, right?
             
-            if np.random.random() > epsilon:
+            if np.random.random() > epsilon: #random returns random float between [0,1]
                 a_type = "Exploit"
                 a_t = actor.model.predict(s_t.reshape(1, s_t.shape[0]))*1 #rescale
             else:
                 a_type = "Explore"
-                a_t = np.random.uniform(-0.1,0.1, size=(1,8))
+                a_t = np.random.uniform(-0.1,0.1, size=(1,8)) #This needs tweaked to reflect the vels expected
 
             ob, r_t, done = env.step(a_t)
 

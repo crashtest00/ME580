@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/drone_game.py" line="39" mnemonic="3" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_py" />
@@ -7,6 +10,8 @@
       <config projectName="drone_project" targetName="uuid_msgs_generate_messages_py" />
       <config projectName="drone_project" targetName="uuid_msgs_generate_messages_eus" />
       <config projectName="drone_project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages_py" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages_eus" />
       <config projectName="drone_project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="drone_project" targetName="geographic_msgs_generate_messages_nodejs" />
@@ -19,37 +24,49 @@
       <config projectName="drone_project" targetName="roscpp_generate_messages_py" />
       <config projectName="drone_project" targetName="geographic_msgs_generate_messages_eus" />
       <config projectName="drone_project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="drone_project" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="drone_project" targetName="drone_project_genpy" />
       <config projectName="drone_project" targetName="mavros_msgs_generate_messages_py" />
-      <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="drone_project" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="drone_project" targetName="mavros_msgs_generate_messages_nodejs" />
+      <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="drone_project" targetName="take_off" />
+      <config projectName="drone_project" targetName="_catkin_empty_exported_target" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages_nodejs" />
       <config projectName="drone_project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="drone_project" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="drone_project" targetName="geographic_msgs_generate_messages_py" />
       <config projectName="drone_project" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="drone_project" targetName="roscpp_generate_messages_eus" />
       <config projectName="drone_project" targetName="gtest" />
+      <config projectName="drone_project" targetName="roscpp_generate_messages_eus" />
       <config projectName="drone_project" targetName="geographic_msgs_generate_messages_cpp" />
       <config projectName="drone_project" targetName="uuid_msgs_generate_messages_nodejs" />
-      <config projectName="drone_project" targetName="clean_test_results" />
+      <config projectName="drone_project" targetName="drone_project_gennodejs" />
       <config projectName="drone_project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="drone_project" targetName="get_state" />
+      <config projectName="drone_project" targetName="clean_test_results" />
+      <config projectName="drone_project" targetName="_drone_project_generate_messages_check_deps_drone_state" />
       <config projectName="drone_project" targetName="mavros_msgs_generate_messages_lisp" />
       <config projectName="drone_project" targetName="offb_node" />
       <config projectName="drone_project" targetName="uuid_msgs_generate_messages_lisp" />
       <config projectName="drone_project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="drone_project" targetName="drone_project_geneus" />
       <config projectName="drone_project" targetName="mavros_msgs_generate_messages_cpp" />
-      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages" />
       <config projectName="drone_project" targetName="gtest_main" />
-      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="drone_project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="drone_project" targetName="tests" />
+      <config projectName="drone_project" targetName="drone_project_genlisp" />
       <config projectName="drone_project" targetName="project_update" />
       <config projectName="drone_project" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="drone_project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="drone_project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages_cpp" />
       <config projectName="drone_project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="drone_project" targetName="drone_project_generate_messages_lisp" />
+      <config projectName="drone_project" targetName="drone_project_gencpp" />
       <config projectName="drone_project" targetName="mavros_msgs_generate_messages_eus" />
       <config projectName="drone_project" targetName="roscpp_generate_messages_lisp" />
     </generated>
@@ -70,48 +87,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="get_state.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ddpg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ddpg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding>
-                <element signature="e#191#230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+            <state relative-caret-position="759">
+              <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_update.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <file leaf-file-name="drone_game.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/drone_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="882">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
-                <element signature="e#0#157#0" expanded="false" />
-                <element signature="e#159#179#0" expanded="true" />
-                <element signature="e#355#438#0" expanded="false" />
+                <element signature="e#22#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offb_node.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <file leaf-file-name="Sandbox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sandbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="56">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,13 +122,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zeros</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/offb_node.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/project_update.cpp" />
         <option value="$PROJECT_DIR$/src/get_state.cpp" />
+        <option value="$PROJECT_DIR$/src/drone_game.cpp" />
+        <option value="$PROJECT_DIR$/src/ddpg.py" />
+        <option value="$PROJECT_DIR$/Sandbox.py" />
+        <option value="$PROJECT_DIR$/src/drone_game.py" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/take_off.cpp" />
       </list>
     </option>
   </component>
@@ -136,10 +156,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1718" />
+    <option name="x" value="173" />
     <option name="y" value="-3" />
-    <option name="width" value="1061" />
-    <option name="height" value="876" />
+    <option name="width" value="1059" />
+    <option name="height" value="861" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -178,10 +198,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/drone_game.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,8 +219,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.offb_node">
+  <component name="RunManager">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="_drone_project_generate_messages_check_deps_drone_state" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="_drone_project_generate_messages_check_deps_drone_state" CONFIG_NAME="Debug">
       <envs />
     </configuration>
     <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
@@ -206,6 +236,39 @@
       <envs />
     </configuration>
     <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_gencpp" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages_cpp" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages_eus" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages_lisp" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_generate_messages_py" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_geneus" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_genlisp" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_gennodejs" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="drone_project_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="drone_project_genpy" CONFIG_NAME="Debug">
       <envs />
     </configuration>
     <configuration name="geographic_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="geographic_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
@@ -331,6 +394,9 @@
     <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug">
       <envs />
     </configuration>
+    <configuration name="take_off" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="take_off" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drone_project" RUN_TARGET_NAME="take_off">
+      <envs />
+    </configuration>
     <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="tests" CONFIG_NAME="Debug">
       <envs />
     </configuration>
@@ -349,62 +415,12 @@
     <configuration name="uuid_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drone_project" TARGET_NAME="uuid_msgs_generate_messages_py" CONFIG_NAME="Debug">
       <envs />
     </configuration>
-    <list size="51">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.clean_test_results" />
-      <item index="2" class="java.lang.String" itemvalue="Application.download_extra_data" />
-      <item index="3" class="java.lang.String" itemvalue="Application.doxygen" />
-      <item index="4" class="java.lang.String" itemvalue="Application.geographic_msgs_generate_messages_cpp" />
-      <item index="5" class="java.lang.String" itemvalue="Application.geographic_msgs_generate_messages_eus" />
-      <item index="6" class="java.lang.String" itemvalue="Application.geographic_msgs_generate_messages_lisp" />
-      <item index="7" class="java.lang.String" itemvalue="Application.geographic_msgs_generate_messages_nodejs" />
-      <item index="8" class="java.lang.String" itemvalue="Application.geographic_msgs_generate_messages_py" />
-      <item index="9" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_cpp" />
-      <item index="10" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_eus" />
-      <item index="11" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_lisp" />
-      <item index="12" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_nodejs" />
-      <item index="13" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_py" />
-      <item index="14" class="java.lang.String" itemvalue="Application.get_state" />
-      <item index="15" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_cpp" />
-      <item index="16" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_eus" />
-      <item index="17" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_lisp" />
-      <item index="18" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_nodejs" />
-      <item index="19" class="java.lang.String" itemvalue="Application.mavros_msgs_generate_messages_py" />
-      <item index="20" class="java.lang.String" itemvalue="Application.offb_node" />
-      <item index="21" class="java.lang.String" itemvalue="Application.project_update" />
-      <item index="22" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_cpp" />
-      <item index="23" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_eus" />
-      <item index="24" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_lisp" />
-      <item index="25" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_nodejs" />
-      <item index="26" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_py" />
-      <item index="27" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
-      <item index="28" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
-      <item index="29" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
-      <item index="30" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
-      <item index="31" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_py" />
-      <item index="32" class="java.lang.String" itemvalue="Application.run_tests" />
-      <item index="33" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_cpp" />
-      <item index="34" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_eus" />
-      <item index="35" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_lisp" />
-      <item index="36" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_nodejs" />
-      <item index="37" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_py" />
-      <item index="38" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_cpp" />
-      <item index="39" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_eus" />
-      <item index="40" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_lisp" />
-      <item index="41" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_nodejs" />
-      <item index="42" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_py" />
-      <item index="43" class="java.lang.String" itemvalue="Application.tests" />
-      <item index="44" class="java.lang.String" itemvalue="Application.uuid_msgs_generate_messages_cpp" />
-      <item index="45" class="java.lang.String" itemvalue="Application.uuid_msgs_generate_messages_eus" />
-      <item index="46" class="java.lang.String" itemvalue="Application.uuid_msgs_generate_messages_lisp" />
-      <item index="47" class="java.lang.String" itemvalue="Application.uuid_msgs_generate_messages_nodejs" />
-      <item index="48" class="java.lang.String" itemvalue="Application.uuid_msgs_generate_messages_py" />
-      <item index="49" class="java.lang.String" itemvalue="Application.gtest" />
-      <item index="50" class="java.lang.String" itemvalue="Application.gtest_main" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -413,33 +429,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512542737157</updated>
-      <workItem from="1512542738979" duration="6853000" />
+      <workItem from="1512542738979" duration="10272000" />
+      <workItem from="1512619240860" duration="6268000" />
+      <workItem from="1512627196139" duration="22729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6853000" />
+    <option name="totallyTimeSpent" value="39269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1600" y="-3" width="1600" height="903" extended-state="6" />
+    <frame x="49" y="-3" width="1551" height="903" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1708575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -450,15 +469,96 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
+        <state relative-caret-position="2044">
           <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -466,28 +566,275 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding>
-            <element signature="e#0#157#0" expanded="false" />
-            <element signature="e#159#179#0" expanded="true" />
-            <element signature="e#355#438#0" expanded="false" />
+            <element signature="e#22#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2044">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#191#230#0" expanded="true" />
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3178">
+          <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_state.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_update.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offb_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.cpp" />
+    <entry file="file://$PROJECT_DIR$/../ddpg/src/robotGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/take_off.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/drone_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
